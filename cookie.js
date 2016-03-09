@@ -165,7 +165,7 @@
 		});
 	} else if (typeof exports !== 'undefined') {
 		exports.cookie = cookie;
-	} else window.cookie = cookie;
+	} else window.ptcookie = cookie;
 
 // If used e.g. with Browserify and CommonJS, document is not declared.
 }(typeof document === 'undefined' ? null : document);
